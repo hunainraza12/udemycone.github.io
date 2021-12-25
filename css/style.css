@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+.navbar{
+	padding: 15px;
+}
+header img{
+	width: 90px;
+}
+.navbar li a{
+	padding-top: 22px;
+	font-size: 15px;
+}
+.navbar li{
+	margin-bottom: 10px;: 
+}
+.navbar input{
+font-size: 15px;
+width:550px;
+border-radius: 30px;
+height: 50px;
+border-color: black; 
+}
+.navbar input::placeholder{
+	padding-left: 20px;
+}
+.navbar button{
+	margin-left: 20px;
+	padding: 5px 15px 5px 15px;
+	font-weight: bold;
+}
+.navbar i{
+	margin-left: 10px;
+	font-size: 25px;
+}
+.hero-section img{
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+	position: relative;
+	background: rgba(0, 0, 0, 0.5); )
+}
+.note input{
+	width: 250px;
+	height: 50px;
+	border-color: black;
+	background-color: #f4f4f4;
+}
+.note{
+	width: 300px;
+	padding:25px;
+	margin-left: 50px;
+	bottom: 200px;
+	position: absolute;
+	background-color: #f4f4f4;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	cursor: pointer;
+}
+.note:hover{
+	box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+/*section-two*/
+.section-two{
+	padding: 15px;
+	margin-top: 50px;
+}
+.section-two h2{
+	font-weight: bold;
+}
+.section-two p{
+	font-size: 18px;
+}
+.section-two .navbar1 li {
+	padding-right: -40px;
+	font-weight: bold;
+}
+/*third-section*/
+.third-section{
+	padding: 35px;
+	margin-top: 20px;
+	margin:20px;
+}
+.third-section h3{
+	font-weight: bold;
+}
+.third-section .part1 img{
+	width: 300px;
+	padding: 10px;
+}
+.third-section button{
+	color:black; 
+	background-color: #ECEB98;
+	padding: 4px 4px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: -20px;	
+}
+
+.third-section h6 {
+	padding-left: 10px;
+}
+.third-section h7{
+padding-left: 10px;	
+}
+.third-section p{
+padding-left: 10px;	
+}
+.third-section a{
+	color: black;
+	list-style: none;
+}
+.third-section .part1 p {
+	margin-top: -5px;
+}
+.third-section .part1 i{
+	color: orange;
+}
+.third-section .part1{
+	float: left;
+} 
+.clear{
+clear: both;
+}
+/*fourth-section*/
+.fourth-section{
+	padding: 15px;
+}
+.course-section {
+	padding: 25px;
+	margin-top: 20px;
+	margin:20px;
+	position: relative;
+}
+.fourth-section img{
+	width: 300px;
+	padding: 10px;
+}
+.fourth-section .part1 i{
+	color: orange;
+}
+.fourth-section .part1 p {
+	margin-top: -5px;
+}
+.fourth-section .part1{
+	float: left;
+}
+.clear{
+clear: both;
+}
+.fourth-section h6 {
+	padding-left: 10px;
+}
+.fourth-section h7{
+padding-left: 10px;	
+}
+.fourth-section p{
+padding-left: 10px;	
+}
+.fourth-section h3{
+	font-weight: bold;
+	margin-left: 50px;
+}
+.fourth-section button{
+	color:black; 
+	background-color: #ECEB98;
+	padding: 4px 4px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: -20px;	
+}
+.direction i{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border-radius: 50%;
+	position: relative;
+	left: 1200px;
+	bottom: 330px;
+}
+/*five-section*/
+.five-section{
+	padding: 15px;			
+}
+.categories{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.five-section h5{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left:50px;
+	margin-bottom: 50px;
+}
+.five-section img{
+	width: 270px;
+	margin-left:50px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.five-section h3{
+	margin-top: 20px;
+	padding-left: 80px;
+}
+.five-section a{
+	text-decoration: none;
+	color: black;
+}
+/*.six-section*/
+.six-section{
+	padding: 35px;
+	 background-color: #f4f4f4;
+}
+.six-section h3{
+	font-weight: bold;
+}
+.featured{
+	float: left;
+	margin: 80px;
+}
+.clear{
+	clear: both;
+}
+.featured h5{
+	font-weight: bold;
+}
+.featured p{
+	font-weight: bold;
+	color: blue;
+	padding-top: 20px;
+}
+.featured span{
+	color: grey;
+}
+.featured button{
+outline: black;	
+}
+.seven-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.intro-one img{
+margin-left: 200px;
+}
+.intro-about{
+	padding-left: 50px;
+}
+.intro-about p{
+	font-size: 20px;
+	width: 70%;
+}
+.intro-about button{
+	color:white ;
+	 background-color: black;
+	 font-weight: bold;
+}
+.eight-section {
+padding: 25px;
+background-color: #f4f4f4;
+}
+.eight-section h2{
+	text-align: center;
+}
+.eight-section img{
+	margin-left: 100px;
+	margin-top: 30px;
+	width: 200px;
+}
+.intro-about-two{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.intro-two p{
+	font-size: 20px;
+}
+.intro-two{
+margin-left: 150px;
+}
+.intro-about-two img{
+margin-right: 200px;
+}
+.intro-two button{
+	color:white ;
+	 background-color: black;
+	 font-weight: bold;
+}
+.intro-two img{
+	width: 300px;
+}
+.last-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.intro-three img{
+margin-left: 200px;
+}
+.another{
+	padding-left: 50px;
+}
+.another p{
+	font-size: 20px;
+	width: 70%;
+}
+.another button{
+	color:white ;
+	 background-color: black;
+	 font-weight: bold;
+}
+footer{
+	background-color: black;
+}
+.footer{
+	padding: 20px;
+	position: relative;
+}
+.footer-one{
+	float: left;
+	margin: 50px;
+	color: white;
+}
+.clear{
+	clear: both;
+}
+.footer button{
+	color:black ;
+	 background-color: white;
+	 font-weight: bold;
+	 margin-left: 400px;
+	 position: absolute;
+	 top: 70px;
+}
+.logo img{
+	width: 90px;
+	margin-left:70px;
+	margin-bottom: 20px;
+}
+.copyright{
+	float: right;
+	margin-right:155px;
+	position: relative;
+	bottom: 60px; 
+}
+.clear	{
+	clear: both;
+}
+.copyright p {
+	color: white;
+}
+
